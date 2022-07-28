@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.carousel-caption{
+bottom: 130px;
+padding-left: 100px;
+padding-right: 100px;
+}
+.slider-btn{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption h5{
+    font-size: 50px;font-weight:700;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.heading h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.banner{
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blogs h1{
+    margin-left: -196px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.p1{
+    margin-left: -20px;
+}
+.p2{
+    margin-left: -98px;
+    margin-top: -15px;
+}
+.buttn{
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.blog h1{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+.images{
+    height: 25px;
+    width: 45px;
+    grid-gap: 65px;
+
+}
+.footer
+{
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.footer p{
+ font-size:smaller;
+}
