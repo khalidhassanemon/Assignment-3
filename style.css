@@ -31,7 +31,7 @@ padding-right: 100px;
     margin-right: 20px;
 }
 .blogs h1{
-    margin-left: -196px;
+    margin-left: -210px;
     margin-bottom: 25px;
     font-family: 'Poppins', sans-serif;
 }
@@ -39,7 +39,7 @@ padding-right: 100px;
     margin-left: -20px;
 }
 .p2{
-    margin-left: -98px;
+    margin-left: -60px;
     margin-top: -15px;
 }
 .buttn{
@@ -54,7 +54,6 @@ padding-right: 100px;
     height: 25px;
     width: 45px;
     grid-gap: 65px;
-
 }
 .footer
 {
@@ -67,4 +66,65 @@ padding-right: 100px;
 }
 .footer p{
  font-size:smaller;
+}
+@media only screen and (max-width:688px){
+
+    .fs-2{
+        margin-left: 70px;
+    } 
+    .fp{
+        margin-left: 80px;
+    }
+    .blogs h1,.p1{
+  margin-left: 10px;
+    }
+    .blogs  .p2{
+margin-left: 5px;
+    }
+    .butn{
+        margin-top: 340px;
+        margin-left: -180px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:688px) and
+(max-width:992px){
+    .btn-2{
+        margin-left: 100px;
+    }
+    .butn{
+        margin-top: 300px;
+        margin-bottom: 20px;
+      margin-left: -200px;
+      border-radius: 3px;
+    }
+    .blog p{
+        margin-left: 40px;
+    }
+    .blog  h1{
+        margin-left: 50px;
+    }
+    .blogs h1,.p1{
+        margin-left: 5px;
+    }
+    .blogs .p2{
+        margin-left: 10px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-2{
+        margin-right: 300px;
+    }
+    .last-part{
+margin-left:50px;
+    }
+    .footer{
+      margin-left: -180px;
+    }
 }
